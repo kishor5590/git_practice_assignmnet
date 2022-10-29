@@ -1,0 +1,11 @@
+let string="ababa";
+let str2="";
+for(let i=string.length;i>=0;i--){
+str2==string[i];
+}
+if(str2==string){
+console.log("palindrome");
+}
+else{
+console.log("not a palindrome");
+}
